@@ -1,3 +1,4 @@
+package multithreading;
 
 public class Multithreading extends Thread{
 
@@ -14,7 +15,7 @@ public class Multithreading extends Thread{
 
     @Override
     public void run() {
-        Thread.currentThread().setName("Multithreading 1");
+        Thread.currentThread().setName("multithreading.Multithreading 1");
         Thread.yield();
         System.out.println("Inside new thread "+ Thread.currentThread().getName());
         try {
