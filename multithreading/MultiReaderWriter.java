@@ -7,12 +7,8 @@ import java.util.List;
 
 public class MultiReaderWriter{
 
-    int remainder;
-    static int index=0;
-    List<Integer> numbers;
 
     public static void main(String[] args)  {
-
         List<Integer> numbers= new ArrayList<>();
 
         Runnable reader=new Runnable() {
